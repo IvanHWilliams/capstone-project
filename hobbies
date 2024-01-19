@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hobbies</title>
+</head>
+<style>
+    h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+   font-weight: bold;
+   text-decoration: underline;
+   text-decoration-color: blue;
+}
+body{
+    background-color: yellow;
+}
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+</style>
+<body>
+    <h1>hobbies</h1>
+    <p>playing chess</p>
+    <p>working out</p>
+</body>
+</html>

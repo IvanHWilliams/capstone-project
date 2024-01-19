@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<style>
+body{
+    background-color: black;
+}
+.gradient-background {
+  background: linear-gradient(300deg, blue, gray, black);
+  background-size: 180% 180%;
+  animation: gradient-animation 10s ease infinite; 
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+img{
+   flex-wrap: wrap;
+   border: 10px solid;
+    border-color: blue;
+    align-items: center;
+    }
+
+.heading{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content{
+    border: 10px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+</style>
+<body>
+    <section id="title" class="gradient-background">
+   <div class="heading"><h1>Ivan Williams</h1></div>
+    <div class="image"><img src="ivan.jpg"alt="ivan"height=200rem width="200rem">
+    </div>
+<div class="heading-2"><h2>Summary</h2></div>
+    <div class="content"><p>My name is Ivan Hilbert Williams JR and I am sixteen years old.The second youngest son of Ivan Williams and Judith Diane Williams. I was born in Los Angeles California on the 2nd of May 2007. I have five other siblings who have supported me throughout my journey.    </p></div>
+<hr>
+<div class="heading-2"> <h2>Education</h2></div>
+<div class="content"><p>The school I'm currently attending is Stann Creek Ecumenical College in the class of 4 Technical. </p></div>
+<hr>
+<div class="heading-2"><h2>Work Experience</h2></div>
+<h3> Intern at BTL</h3>
+    <ul>
+        <li> I work in the programing and development department.</li>
+        <li>A student in Udemy.</li>
+    </ul>
+<hr>
+<div class="heading-2"><h2>Skills</h2></div>
+    <ul>
+        <li>Humble</li>
+        <li>Hard working</li>
+        <li>Dicipline</li>
+    </ul>
+<h2>Other</h2>
+<ul>
+    <li><a href="./contact me">"contact information"</a></li>
+    <li><a href="./hobbies">"hobbies"</a></li>
+</ul>
+</body>
+</section>
+
+
+
+</html>
